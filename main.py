@@ -21,3 +21,4 @@ driver.get('https://www.acb.com/club/index/temporada_id/2022')
 
 # LOAD ALL THE TEAMS
 teams = driver.find_elements(By.CLASS_NAME, 'club')
+print('test')
